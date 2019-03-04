@@ -1,0 +1,8 @@
+version: '3'
+services:
+  bar:
+    image: ruby:latest
+    build:
+      context: .
+    volumes:
+      - .:/the_bar
